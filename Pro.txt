@@ -1,0 +1,35 @@
+SPA - > (SIN NAV)
+	-> HEADER
+		-> Contactamé
+	-> PROYECTOS
+		-> xCards a Proyectos principales
+			(*proyectos externos) 
+	-> ACERCA DE
+		-> Más info
+	-> FOOTER
+		-> Site Map
+--------------------------------------------------
+/Layouts -> NO 
+/Componentes
+	-> Header
+		-> Botón class = Contactamé
+	-> Proyectos
+		-> Card (info.json)
+		-> Botón class = EnlaceProyecto
+	-> Acerca
+		-> Botón class = MásInfo
+	-> Footer
+--------------------------------------------------
+/CSS
+	-> Global + Tailwind
+--------------------------------------------------
+Integraciones
+	git
+	tscript
+	tailwind
+
+	**astro.icons
+	**astro.sitemap
+
+--------------------------------------------------
+--------------------------------------------------
