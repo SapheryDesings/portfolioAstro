@@ -1,4 +1,17 @@
+body {
+  font-family: "Kanit", sans-serif;
+  background:radial-gradient(125% 125% at 50% 10%, #000 40%,#3b0764 100%);
+}
 
 section {
-  border: 2px dashed darkred;
+  padding: 1rem 0;
+}
+
+#header{
+  /*background-image: url(../assets/headerimg.jpg);
+  background-size: cover;*/
+  h2 {
+    
+    font-size: 2rem;
+  }
 }
