@@ -7,7 +7,7 @@ section {
   padding: 1rem 0;
 }
 
-#header{
+#header {
   /*background-image: url(../assets/headerimg.jpg);
   background-size: cover;*/
   h2 {
@@ -15,3 +15,10 @@ section {
     font-size: 2rem;
   }
 }
+
+#card {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(135deg, #3B07642B 0%, #000000 75%);
+  border: .1rem solid #d946ef50;
+  }
