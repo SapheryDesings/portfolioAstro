@@ -8,8 +8,10 @@ section {
 }
 
 #header {
-  /*background-image: url(../assets/headerimg.jpg);
-  background-size: cover;*/
+  background-size: cover;
+  background-image: 
+    radial-gradient(75% 75% at 50% 50%, transparent, #000000 60%), 
+    url(../assets/headerimg.jpg);
   h2 {
     
     font-size: 2rem;

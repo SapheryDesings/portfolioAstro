@@ -9,10 +9,17 @@ import { Icon } from 'astro-icon/components'
       y bienvenido al increible mundo del
       <span class="text-purple-900 font-semibold">desarrollo de software</span>
     </h2>
-    
-    <Boton titulo = "Contacta conmigo">
-      <Icon name="mdi:email-arrow-right-outline" class="text-2xl text-white"/>
-    </Boton>
+    <div class="flex gap-1 flex-wrap justify-center">
+      <Boton titulo = "Contáctame">
+        <Icon name="mdi:email-arrow-right-outline" class="text-2xl text-white"/>
+      </Boton>
+      <Boton titulo = "Curriculum">
+        <Icon name="mdi:file-document-box-outline" class="text-2xl text-white"/>
+      </Boton>
+      <Boton titulo = "GitHub">
+        <Icon name="mdi:github" class="text-2xl text-white"/>
+      </Boton>
+    </div>
   </div>
   
 </section>
